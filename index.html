@@ -7,15 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
 </head>
 
 <body>
     <header>
-
         <div id="titolo">MARCO BIANCHI</div>
-        <img src="./locandina2.JPG" alt="">
 
+        <div class="section">
+            <form name="form" action="">
+
+                <div class="input-table">
+                    <input type="text" name="name" placeholder="Name" maxlength="50">
+                </div>
+
+                <div class="input-table">
+                    <input type="email" name="email" placeholder="Email address" maxlength="30">
+                </div>
+
+                <div class="input-table">
+                    <input type="text" name="number" placeholder="Phone number" maxlength="30">
+                </div>
+
+                <div class="input-table">
+                    <textarea name="message" cols="40" rows="12" maxlength="50" placeholder="Write your message"></textarea><br>
+                    <button type="submit" id="input-button" onclick="sendDates()">Send</button>
+                </div>
+
+
+            </form>
+            <img src="./locandina2.JPG" alt="">
+        </div>
     </header>
+
     <main>
         <div class="bodycontainer">
             <div class="body_scritta_piu_grande">
