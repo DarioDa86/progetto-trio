@@ -1,3 +1,21 @@
+.bodycontainer {
+    text-align: center;
+    margin: auto;
+}
+
+.body_scritta_piu_grande {
+    font-size: 200px;
+    background-color: goldenrod;
+    color: black;
+    padding: 30px 1px;
+}
+
+.body_sottotitolo {
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    padding: 30px 1px;
+
 * {
     margin: 0;
     padding: 0;
