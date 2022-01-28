@@ -20,7 +20,7 @@ header {
 }
 
 img {
-    width: 800px;
+    width: 800px;}
 
 .bodycontainer {
     text-align: center;
@@ -39,6 +39,7 @@ img {
     background-color: black;
     color: white;
     padding: 30px 1px;
+}
 
 * {
     margin: 0;
@@ -66,3 +67,4 @@ body {
 
 .recap-text:first-child {
     margin-bottom: 10px;
+}
