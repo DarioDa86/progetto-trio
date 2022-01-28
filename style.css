@@ -1,3 +1,27 @@
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 800px;
+    margin: auto;
+    border: 5px solid white;
+}
+
+#titolo {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    font-size: xxx-large;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+img {
+    width: 800px;
+
 .bodycontainer {
     text-align: center;
     margin: auto;
@@ -42,4 +66,3 @@ body {
 
 .recap-text:first-child {
     margin-bottom: 10px;
-}
