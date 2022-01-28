@@ -27,9 +27,6 @@ header {
     margin-top: 30px;
 }
 
-img {
-    width: 800px;}
-
 .bodycontainer {
     text-align: center;
 }
@@ -60,4 +57,14 @@ img {
 
 .recap-text:first-child {
     margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.input-table {
+    margin: 10px;
 }
