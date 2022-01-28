@@ -1,3 +1,4 @@
+
 body {
     background-color: black;
 }
@@ -20,4 +21,48 @@ header {
 
 img {
     width: 800px;
+
+.bodycontainer {
+    text-align: center;
+    margin: auto;
 }
+
+.body_scritta_piu_grande {
+    font-size: 200px;
+    background-color: goldenrod;
+    color: black;
+    padding: 30px 1px;
+}
+
+.body_sottotitolo {
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    padding: 30px 1px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-color {
+    background-color: #ffbe4a;
+    text-align: center;
+    padding: 30px 0;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.recap-text {
+    font-size: 25px;
+}
+
+.recap-text:first-child {
+    margin-bottom: 10px;
